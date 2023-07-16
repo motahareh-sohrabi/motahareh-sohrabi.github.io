@@ -41,3 +41,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* New class for the profile picture */
+.profile-pic {
+    width: 200px;
+    height: auto;
+}
