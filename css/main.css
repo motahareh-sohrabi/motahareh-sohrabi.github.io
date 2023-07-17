@@ -21,34 +21,36 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
+h1, h2 {
     font-size: 2em;
-    font-weight: 700; /* Use the bold weight for headers */
+    font-weight: 700;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    margin-left: 20px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
-
 ul.posts li {
     list-style: none;
 }
-
 .profile-pic {
     width: 200px;
     height: auto;
+    margin-right: 20px;
 }
-
+.content {
+    display: flex;
+    align-items: start;
+}
 .news-list {
     font-size: 1em;
 }
