@@ -39,6 +39,7 @@ p {
     font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
+    margin: 10px 0;
 }
 
 footer {
@@ -71,12 +72,4 @@ ul.news-list li {
 .profile-pic {
     width: 200px;
     height: auto;
-}
-
-.text-content h2, .text-content p, .text-content ul {
-    font-size: 1.2em;
-}
-
-.text-content ul {
-    padding-left: 20px;
 }
