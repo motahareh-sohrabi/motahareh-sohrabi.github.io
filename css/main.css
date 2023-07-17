@@ -21,8 +21,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1, h2 {
+h1 {
     font-size: 2em;
+    font-weight: 700;
+}
+h2 {
+    font-size: 1.5em;
     font-weight: 700;
 }
 p {
@@ -52,9 +56,9 @@ ul.posts li {
     align-items: start;
 }
 .news-list {
-    font-size: 1.2em;
-    margin-top: 1em;
+    font-size: 1.4em; /* Increased font size */
+    margin-top: 2em; /* Increased space between the header and the list */
 }
 .news-list li {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em; /* Increased space between list items */
 }
