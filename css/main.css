@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
     margin: 60px auto;
     width: 70%;
-    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-family: 'Open Sans', 'Arial', sans-serif;
 }
 nav ul, footer ul {
     padding: 0px;
@@ -22,36 +21,48 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 1.8em; /* Decreased font size */
-    font-weight: 700;
+    font-size: 1.6em;
 }
 h2 {
-    font-size: 1.3em; /* Decreased font size */
-    font-weight: 700;
-    margin-top: 2em; /* Added space between the picture and news */
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 p {
-    font-size: 1.2em; /* Decreased font size */
     line-height: 1.4em;
     color: #333;
-    margin-left: 20px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
+ul.posts { 
+    margin: 20px auto 40px; 
+}
+
+ul.posts li, ul.news-list li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
 .profile-pic {
     width: 200px;
     height: auto;
     margin-right: 20px;
 }
+
 .content {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .news-list {
-    font-size: 1.1em; /* Decreased font size */
-}
-.news-list li {
-    margin-bottom: 1em; /* Increased space between list items */
+    font-size: 1em;
+    line-height: 1.6em;
 }
