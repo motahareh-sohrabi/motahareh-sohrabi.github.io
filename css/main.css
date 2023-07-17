@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     margin: 60px auto;
     width: 70%;
+    font-family: 'Roboto', sans-serif;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -21,7 +23,7 @@ a:hover {
 }
 h1 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: 700; /* Use the bold weight for headers */
 }
 p {
     font-size: 1.5em;
@@ -42,7 +44,6 @@ ul.posts li {
     list-style: none;
 }
 
-/* New class for the profile picture */
 .profile-pic {
     width: 200px;
     height: auto;
