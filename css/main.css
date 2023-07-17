@@ -52,5 +52,9 @@ ul.posts li {
     align-items: start;
 }
 .news-list {
-    font-size: 1em;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+.news-list li {
+    margin-bottom: 0.5em;
 }
