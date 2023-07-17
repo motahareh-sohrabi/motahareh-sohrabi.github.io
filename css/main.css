@@ -47,3 +47,7 @@ ul.posts li {
     width: 200px;
     height: auto;
 }
+
+.news-list {
+    font-size: 1em;
+}
